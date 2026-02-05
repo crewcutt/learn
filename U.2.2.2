@@ -1,0 +1,10 @@
+price = 249.5
+discount = 40
+delivery1 = 100
+delivery = 49.5
+quantity = 60
+price_discount = price - (price * discount / 100) ; #print (price_discount)
+cost1 = price_discount + delivery1 ; #print (cost1)
+cost = (price_discount * (quantity - 1) ) + (delivery * (quantity - 1)) ; #print (cost)
+cost_all = cost1 + cost
+print (cost_all)
