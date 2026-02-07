@@ -1,0 +1,5 @@
+def right_justify (function):
+    print (' ' * (60 - len(function)) + function)
+    print ('123456789_' * 6)
+
+right_justify ('monty')
