@@ -1,0 +1,24 @@
+def do_twice(function, argument):
+#   function()
+#   function()
+#   print_twice('спам5')
+#   print_twice('спам5')
+   do_four ('спам7')
+
+def print_spam():
+   print('спам2')
+
+def print_twice(text):
+   print(text)
+   print(text)
+ 
+def do_four(text2):
+	print_twice(text2)
+	print_twice(text2)
+	print_twice(text2)
+	print_twice(text2)
+
+argument = 1
+#print_spam()
+do_twice(print_spam, argument)
+#do_four(print_spam)
